@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+.container
+{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    align-items: start;
+    
+}
+.box1,.box2,.box3,.box4
+{
+    background-color: greenyellow;
+    border: 4px black solid;
+    
+}
+
+.box1{
+    align-self: stretch;
+}
+
+.box3{
+    align-self: center;
+}

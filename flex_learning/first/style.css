@@ -1,0 +1,40 @@
+
+body{
+    background-color:red;
+}
+.container
+{
+   background-color: aqua;
+    display: flex;
+    height: 500px;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding:0px 20px 0px;
+
+}
+.left , .right{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: bisque;
+}
+.left p{
+    padding-top: 15px;
+    text-align: center;
+    
+}
+.right{
+    background-color: chartreuse;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box
+{
+    background-color: beige;
+    width: 20px;
+    height: 20px;
+    /* align-self: center; */
+}
